@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head -->
+<%- include('../partials/head.ejs', {style:'create.css', title:"New Product"}) %>
+<body>
+    <!-- Header -->
+    <%- include('../partials/header.ejs') %>
+
+    <main class="container">
+        <h1 class="title">New Game</h1>
+        <form action="/create" method="get">
+            <label for="game">Name:</label>
+            <input type="text" name="game" id="game" placeholder="Over watch">
+
+            <label for="price">Price:</label>
+            <input type="number" name="price" id="price"  min="0">
+
+            <label for="release">Release Date:</label>
+            <input type="date" name="release" id="release">
+
+            <label for="typeCamera">Type Camera:</label>
+            <select name="typeCamera" id="typeCamera">
+                <option value="1">1</option>
+                <option value="3">3</option>
+            </select>
+
+            <div class="platforms">
+                <p>Platforms</p>
+                <label for="ps5">PS5</label>
+                <input type="checkbox" name="platforms" id="ps5" value="ps5">
+                <label for="pc">Pc</label>
+                <input type="checkbox" name="platforms" id="pc" value="pc">
+            </div>
+
+      
+            <button class="form__btn"type="submit">Submit</button>
+        </form>
+        <a href="https://google.com.ar" class="btn__google">G</a>
+    </main>
+    <!-- Footer -->
+    <%- include('../partials/footer.ejs') %>
+</body>
+
+</html>

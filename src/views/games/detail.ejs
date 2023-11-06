@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head -->
+<%- include('../partials/head.ejs', {style:'estilo2.css', title:"Game Store"}) %>
+
+<body>
+    <!-- Header -->
+    <%- include('../partials/header.ejs') %>
+    <main class="container">
+        <img class="product-img" src="<%= game.thumbnail %>" alt="game-img">
+        <div class="description">
+            <h3><%= game.title %></h3>
+            <button class="description__btn">Buy</button>
+        </div>
+    </main>
+    <!-- Footer -->
+    <%- include('../partials/footer.ejs') %>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head -->
+<%- include('./partials/head.ejs', {style:'estilo2.css', title:"Game Store"}) %>
+
+<body>
+    <!-- Header -->
+    <%- include('./partials/header.ejs') %>
+    <main>
+        <section class="container">
+
+            <% games.forEach(game => { %>
+                <article class="game">
+                    <h3 class="game__title"><a href="/games/detail/<%= game.id %>"><%= game.title %></a></h3>
+                    <img class="game__img" src="<%= game.thumbnail %>" alt="juego">
+                    <p class="game__platform"><%= game.platform %></p>
+                </article>
+            <% }) %>
+
+
+        </section>
+    </main>
+    <!-- Footer -->
+    <%- include('./partials/footer.ejs') %>
+</body>
+
+</html>

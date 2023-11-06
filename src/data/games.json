@@ -1,0 +1,108 @@
+[
+ {
+  "id": 540,
+  "title": "Overwatch 2",
+  "thumbnail": "https://www.freetogame.com/g/540/thumbnail.jpg",
+  "game_url": "https://www.freetogame.com/open/overwatch-2",
+  "genre": "Shooter"
+ },
+ {
+  "id": 521,
+  "title": "Diablo Immortal",
+  "thumbnail": "https://www.freetogame.com/g/521/thumbnail.jpg",
+  "game_url": "https://www.freetogame.com/open/diablo-immortal",
+  "genre": "MMOARPG"
+ },
+ {
+  "id": 517,
+  "title": "Lost Ark",
+  "thumbnail": "https://www.freetogame.com/g/517/thumbnail.jpg",
+  "game_url": "https://www.freetogame.com/open/lost-ark",
+  "genre": "ARPG",
+  "platform": "PC (Windows)"
+ },
+ {
+  "id": 516,
+  "title": "PUBG: BATTLEGROUNDS",
+  "thumbnail": "https://www.freetogame.com/g/516/thumbnail.jpg",
+  "game_url": "https://www.freetogame.com/open/pubg",
+  "genre": "Shooter"
+ },
+ {
+  "id": 508,
+  "title": "Enlisted",
+  "thumbnail": "https://www.freetogame.com/g/508/thumbnail.jpg",
+  "game_url": "https://www.freetogame.com/open/enlisted",
+  "genre": "Shooter"
+ },
+ {
+  "id": 345,
+  "title": "Forge of Empires",
+  "thumbnail": "https://www.freetogame.com/g/345/thumbnail.jpg",
+  "game_url": "https://www.freetogame.com/open/forge-of-empires",
+  "genre": "Strategy"
+ },
+ {
+  "id": 427,
+  "title": "Drakensang Online",
+  "thumbnail": "https://www.freetogame.com/g/427/thumbnail.jpg",
+  "game_url": "https://www.freetogame.com/open/drakensang-online",
+  "genre": "MMORPG"
+ },
+ {
+  "id": 525,
+  "title": "MultiVersus",
+  "thumbnail": "https://www.freetogame.com/g/525/thumbnail.jpg",
+  "game_url": "https://www.freetogame.com/open/multiversus",
+  "genre": "Fighting"
+ },
+ {
+  "id": 475,
+  "title": "Genshin Impact",
+  "thumbnail": "https://www.freetogame.com/g/475/thumbnail.jpg",
+  "game_url": "https://www.freetogame.com/open/genshin-impact",
+  "genre": "Action RPG"
+ },
+ {
+  "id": 523,
+  "title": "Fall Guys",
+  "thumbnail": "https://www.freetogame.com/g/523/thumbnail.jpg",
+  "game_url": "https://www.freetogame.com/open/fall-guys",
+  "genre": "Battle Royale"
+ },
+ {
+  "id": 340,
+  "title": "Game Of Thrones Winter Is Coming",
+  "thumbnail": "https://www.freetogame.com/g/340/thumbnail.jpg",
+  "game_url": "https://www.freetogame.com/open/game-of-thrones-winter-is-coming",
+  "genre": "Strategy"
+ },
+ {
+  "id": 347,
+  "title": "Elvenar",
+  "thumbnail": "https://www.freetogame.com/g/347/thumbnail.jpg",
+  "game_url": "https://www.freetogame.com/open/elvenar",
+  "genre": "Strategy"
+ },
+ {
+  "id": 11,
+  "title": "Neverwinter",
+  "thumbnail": "https://www.freetogame.com/g/11/thumbnail.jpg",
+  "game_url": "https://www.freetogame.com/open/neverwinter",
+  "genre": "MMORPG"
+ },
+ {
+  "id": 380,
+  "title": "Dark Orbit Reloaded",
+  "thumbnail": "https://www.freetogame.com/g/380/thumbnail.jpg",
+  "game_url": "https://www.freetogame.com/open/darkorbit",
+  "genre": "Shooter"
+ },
+ {
+  "id": 515,
+  "title": "Halo Infinite 2",
+  "thumbnail": "https://www.freetogame.com/g/515/thumbnail.jpg",
+  "game_url": "https://www.freetogame.com/open/halo-infinite",
+  "genre": "Shooter"
+ }
+]
