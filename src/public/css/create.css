@@ -1,0 +1,105 @@
+:root {
+    --primario: #bcec4c;
+    --secundario: #6cacdc;
+    --links: #2c7c44;
+    --bg-primario: #947c6c;
+    --bg-secundario: #b49c94;
+}
+
+
+.container {
+    background-color: var(--secundario);
+    min-height: 440px;
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.50);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* animation: move 3s infinite; */
+}
+
+@keyframes move {
+    0%{ opacity: 10%;}
+    25%{transform: translateY(-20); opacity: 40%;}
+    100%{opacity: 10%;}
+}
+
+input {
+    outline: none
+}
+
+input:focus {
+    color: red;
+    border: solid 3px greenyellow;
+}
+
+label {
+    color: var(--links)
+}
+
+.form__btn {
+    background-color: var(--primario);
+    border: 1px solid var(--bg-secundario);
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin: 10px 0;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.50);
+    /*     transition-property: background-color;
+    transition-duration: 3s;
+    transition-property: color;
+    transition-duration: 1s; */
+    /*     transition: background-color, 3s,
+                color, 1s; */
+    /* transition:all 0.5s; */
+}
+
+.form__btn:hover {
+    background-color: var(--links);
+    color: var(--primario)
+}
+
+.btn__more{
+    background-color: var(--primario);
+    font-size: 30px;
+    font-weight: 900;
+    color: var(--links);
+    padding: 0px 15px;
+    border-radius: 100%;
+    position: relative;
+    left: 98%;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.50);
+}
+
+
+/* @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  
+
+  div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }  */

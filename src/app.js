@@ -1,7 +1,7 @@
 const express = require('express')
 const path = require('path')
 const app = express()
-const port = 3000
+const port = 3000 || process.env.PORT
 
 // Config static folder
 app.use(express.static(path.join(__dirname, 'public')))
@@ -12,6 +12,10 @@ app.get('/', (req, res) => {
 
 app.get('/detail', (req, res) => {
   res.sendFile(path.join(__dirname, 'views', 'detail.html'))
+})
+
+app.get('/create', (req, res) => {
+  res.sendFile(path.join(__dirname, 'views', 'create.html'))
 })
 
 app.get('*', (req, res)=>{
