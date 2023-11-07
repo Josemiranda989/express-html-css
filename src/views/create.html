@@ -35,39 +35,38 @@
             <li><a href="">Free to play</a></li>
         </ul>
     </header>
-
     <main class="container">
-        <h1 class="title">New Game</h1>
-        <form action="/create" method="get">
-            <label for="game">Name:</label>
-            <input type="text" name="game" id="game" placeholder="Over watch">
 
-            <label for="price">Price:</label>
-            <input type="number" name="price" id="price"  min="0">
+        <h1>Nuevo juegos</h1>
+        <form action="/create" method="post">
+            <label for="nombre">Ingresa el nombre del juego</label>
+            <input type="password" name="nombre" id="nombre" placeholder="Overwatch">
 
-            <label for="release">Release Date:</label>
-            <input type="date" name="release" id="release">
+            <label for="precio">Ingresa el precio del juego</label>
+            <input type="number" name="precio" id="precio">
 
-            <label for="typeCamera">Type Camera:</label>
-            <select name="typeCamera" id="typeCamera">
-                <option value="1">1</option>
-                <option value="3">3</option>
+            <label for="lanzamiento">Ingresa la fecha del lanzamiento</label>
+            <input type="date" name="lanzamiento" id="lanzamiento">
+
+            <label for="comentarios">Ingresa comentarios</label>
+            <textarea name="comentarios" id="comentarios"></textarea>
+
+            <label for="genero">Ingresa un genero</label>
+            <select name="genero" id="genero">
+                <option value="Shooter">Shooter</option>
+                <option value="Rpg">Rpg</option>
+                <option value="Aventura" selected>Aventura</option>
             </select>
 
-            <div class="platforms">
-                <p>Platforms</p>
-                <label for="ps5">PS5</label>
-                <input type="checkbox" name="platforms" id="ps5" value="ps5">
-                <label for="pc">Pc</label>
-                <input type="checkbox" name="platforms" id="pc" value="pc">
-            </div>
+            <label for="plataformas">Plataformas</label>
+            <label for="pc">PC<input type="checkbox" name="pc" id="pc"></label>
+            <label for="xbox">XBOX<input type="checkbox" name="xbox" id="xbox"></label>
 
-      
-            <button class="form__btn"type="submit">Submit</button>
+            <button type="reset">Borrar</button>
+            <button type="submit">Enviar</button>
         </form>
-        <a href="https://google.com.ar" class="btn__google">G</a>
-    </main>
 
+    </main>
     <footer class="footer">
         <div class="footer__title">Derechos de autor</div>
         <img class="logo" src="/img/logo.png" alt="logo">
